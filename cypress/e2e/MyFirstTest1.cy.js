@@ -38,7 +38,7 @@ describe('My First Test', () =>
   
  })
 
- it.skip('test4', () => {
+ it('test4', () => {
   cy.visit("https://www.zoho.com/in/billing/contact-us/")
   cy.get("input#name").type("Codelogicx Technologies Pvt Ltd")
   cy.get("input#email").type("juli@yopmail.com")
